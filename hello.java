@@ -1,9 +1,9 @@
 // 1.wap to print hello world
 class hello{
     public static void main(String[] args){
-        System.out.print("hello world");
-    }
-}
+        // System.out.print("hello world");
+    // }
+// }
 // 2.wap to print add two number
 
 //         int a = 9;
@@ -45,13 +45,13 @@ class hello{
 // System.out.println(!d);
 
 //  6. wap to calaculate a percentage 
-// float chemistry = 89;
-// float maths = 90;
-// float physic = 85;
-// float english = 99;
-// float computer = 88;
-// float result = (chemistry + maths + physic + english + computer)/5;
-// System.out.println(result);
+float chemistry = 89;
+float maths = 90;
+float physic = 85;
+float english = 99;
+float computer = 88;
+float result = (chemistry + maths + physic + english + computer)/5;
+System.out.println(result);
 
 
 }
