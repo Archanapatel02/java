@@ -72,14 +72,62 @@ Scanner sc = new Scanner(System.in);
 //     System.out.println("Reverse = " + rev);
 
 // 5. check palindrome number
-int i =121;
-int rev = 0;
-while(i!=0){
-    int num = i%10;
-    rev= rev * 10 + num;
-    i = i/10;
+// int i =121;
+// int rev = 0;
+// while(i!=0){
+//     int num = i%10;
+//     rev= rev * 10 + num;
+//     i = i/10;
+// }
+// System.out.println("reverse =" + rev);
+
+             // do while loop
+
+// 1.Armstrong number
+// int num = 153;
+// int original = num;
+// int sum=0;
+// do{
+//     int digit=num%10;
+//     sum +=digit*digit*digit;
+//     num=num/10;
+// }
+// while(num!=0);
+//     if(sum==original)
+//         System.out.println("Armstrong");
+//     else{
+//         System.out.println("Not armstrong");
+//     }
+
+//2.factorial using do-while
+// int n=5;
+// int fact=1;
+// do{
+//     fact *=n;
+//     n--;
+// }
+// while(n>0);
+//     System.out.println("factorial="+fact);
+
+//3.user input untill 0
+// Scanner sc = new scanner(System.in);
+// int n;
+// do{
+//     System.out.println("enter a n number");
+//     n = sc.nextInt();
+// }
+// while(n!=0);
+
+//4.power of a number(a^b)
+int base=2;
+int exp=3;
+int result=1;
+do {
+    result *=base;
+    exp--;
 }
-System.out.println("reverse =" + rev);
+while(exp>0);
+System.out.println("Result ="+result);
+}
 
     }
-} 
