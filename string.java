@@ -35,15 +35,42 @@ public static void main(String[] args){
 // }
 
 // 3.count vowel in a string
-String str="eduation";
-int count =0;
-for(int i=0;i<=str.length(); i++){
-    char ch = str.charAt(i);
-}
-if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
-    count++;
-}
-System.out.println("vowel: "+ count);
+// String str="eduation";
+// int count =0;
+// for(int i=0;i<=str.length(); i++){
+//     char ch = str.charAt(i);
+// }
+// if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
+//     count++;
+// }
+// System.out.println("vowel: "+ count);
+
+//  4.Write a Java program to get the character
+//  at the given index within the 
+
+// String str = "java Execises";
+// System.out.println("original string =" + str);
+// int index1=str.charAt(0);
+// int index2=str.charAt(10);
+// System.out.println("The charcter postion at 0 is =" + (char)index1);
+// System.out.println("the character psotion at 4 is =" + (char)index2);
+
+//5.Write a Java program to get the character (Unicode code point)
+//  at the given index within the string.
+// String str="archana@6261";
+// System.out.println("original string" +str);
+// int val1 = str.codePointAt(2);
+// int val2 = str.codePointAt(7);
+// System.out.println("charcter (unicode point)="+val1);
+// System.out.println("charcter (unicode point)="+val2);
+
+// 6.Write a Java program to count Unicode code points in
+the specified text range of a string.
+String str="archana@6261";
+System.out.println("original string ="+ str);
+int cou =str.codePointCount(1,12);
+System.out.println("codepoint count="+cou);
+
 
     }
 
